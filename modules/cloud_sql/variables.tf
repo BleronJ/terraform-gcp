@@ -25,11 +25,9 @@ variable "db_name" {
 
 variable "db_user" {
   type = string
-  default = "test_user"
 }
 
 variable "db_password" {
   type      = string
   sensitive = true
-  default = "Testing123!"
 }

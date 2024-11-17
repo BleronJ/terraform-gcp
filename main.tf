@@ -17,6 +17,8 @@ module "cloud_run" {
   db_connection_name = module.cloud_sql.connection_name
   db_name            = module.cloud_sql.db_name
   db_user            = module.cloud_sql.db_user
-  db_password        = var.db_password
-  invoker_member     = "allUsers"  # Adjust based on your security requirements
+  db_password        = var.db_password 
+  invoker_member     = "allUsers"  
+  project_id = var.project_id
 }
+

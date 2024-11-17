@@ -1,5 +1,5 @@
 variable "project_id" {
-    default = "starry-seat-438408-p1"
+    
 }
 
 variable "region" {
